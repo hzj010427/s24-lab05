@@ -59,5 +59,10 @@ public interface IntegerList {
      */
     public int size();
 
-
+    /**
+     * Returns the total number of elements added to the list.
+     *
+     * @return the total number of elements added to the list
+     */
+    public int getTotalAdded();
 }
