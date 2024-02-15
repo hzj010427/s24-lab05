@@ -42,7 +42,6 @@ public class InheritanceSortedIntList extends SortedIntList {
      */
     @Override
     public boolean addAll(IntegerList list) {
-        totalAdded += list.size();
         return super.addAll(list);
     }
 
